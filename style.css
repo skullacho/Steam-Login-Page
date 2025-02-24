@@ -1,0 +1,148 @@
+body{
+    background-color: #2b313e;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a, a:active, a:hover, a:visited{
+    color: #a3a3a3;
+}
+#topnav-steam{
+    background-color: #171a21;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.width-25{
+    width: 25%;
+}
+.width-50{
+    width: 50%;
+}
+#hmenu-static{
+    opacity: 0.9;
+    transform: scale(0.15);
+    margin-top: -82.5px;
+    margin-left: -85px;
+}
+.width-50:nth-child(2){
+    opacity: 0.9;
+    margin-left: -50px;
+    transform: scale(0.2);
+    margin-top: -20px;
+}
+#login-steam{
+    justify-self: center;
+    width: 100%;
+    height: 650px;
+    background: rgb(23,26,33);
+    background: linear-gradient(180deg, rgba(23,26,33,1) 15%, rgba(49,58,77,1) 50%, rgba(23,26,33,1) 85%);
+}
+.main-title{
+    padding-top: 20px;
+    padding-bottom: 35px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+#input{
+    justify-self: center;
+    width: 65%;
+}
+.uptext-tbox{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.uptext-tbox:nth-child(1){
+    color: #1999ff;
+}
+.uptext-tbox:nth-child(3){
+    color: #a3a3a3;
+    margin-top: 10px;
+}
+.tbox{
+    width: 100%;
+    height: 30px;
+    border-radius: 2px;
+    background-color: #32353c;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #32353c;
+}
+#checkbox{
+    margin-top: 10px;
+    display: flex;
+}
+#checkbox-text{
+    color: #a3a3a3;
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: 2px;
+}
+#btn-login{
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+#forgot-password{
+    display: flex;
+    justify-self: center;
+    color: #a3a3a3;
+    font-size: 10px;
+}
+#qr-code{
+    margin-top: 50px;
+    margin-left: 3%;
+    width: 100%;
+}
+#qr-text{
+    margin-left: -6%;
+    margin-top: 30px;
+    margin-bottom: 2.5px;
+    color: #1999ff;
+    justify-self: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+#qr-code-img{
+    margin-left: 15%;
+    border-radius: 5px;
+    width: 65%;
+}
+#qr-long-text{
+    font-size: 9px;
+    color: #a3a3a3;
+}
+#botnav-steam{
+    justify-self: center;
+    margin-top: -2px;
+    width: 100%;
+    height: 224px;
+    background: rgb(23,26,33);
+    font-size: 24px;
+}
+#btn-register{
+    width: 40%;
+    height: 30px;
+    margin-left: 31%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border: none;
+    border-radius: 2px;
+}
+#lower-text{
+    text-align: center;
+    justify-self: center;
+    font-size: 9px;
+    color: #a3a3a3;
+}
